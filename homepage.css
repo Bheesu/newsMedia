@@ -50,7 +50,7 @@ span
 {
     display: block;
 }
-.nm_logo
+.nm_logo12
 { 
 
     display: flex;
@@ -139,7 +139,7 @@ footer
     color: green;
     text-decoration: underline;
 }
-.nm_logo img
+.nm_logo12 img
 {
     height: 50px;
 }
