@@ -5,7 +5,7 @@ let nm_item = document.querySelectorAll(".nm_item");
 let nm_logo = document.querySelector(".nm_logo");
 nm_logo.addEventListener("click",function ()
 {
-  alert("Hey! everyone I hope you are fine and you got latest news upadate here");
+  alert("Hey! everyone I hope you are fine and you got latest news update here");
 })
 nm_item.forEach((element) => {
   window.addEventListener("load", function () {
