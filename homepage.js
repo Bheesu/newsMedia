@@ -44,6 +44,7 @@ nm_item.forEach((element) => {
   });
   // click event
   element.addEventListener("click", function (e) {
+    window.scroll(0,0);
     let nm_html = "";
     let endpoint = "";
     let value = e.target.dataset.category;
@@ -113,7 +114,11 @@ if (window.screen.width < 600) {
     });
   }
 }
-
+let nm_top=document.querySelector("#nm_top");
+nm_top.addEventListener("click", function ()
+{
+  window.scroll(0,0);
+})
 // fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${APIKEY}`)
 //   .then((response) => response.json())
 //   .then((data) => )
