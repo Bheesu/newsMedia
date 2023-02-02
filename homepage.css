@@ -18,6 +18,17 @@ header
     margin: 0 auto;
     height: auto;
 }
+#nm_top
+{
+    float: right;
+    font-family: Signika Negative;
+    background-color: #ff980069;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
 #news
 {
     padding-top:90px ;
@@ -121,6 +132,7 @@ footer
     height: 30px;
     width: 100%;
     background-color: blanchedalmond;
+    margin-top: 60px;
 }
 .nm_item:active
 {

@@ -2,7 +2,11 @@ const APIKEY = "6d04415a33a242008bf2661f5a7ac275";
 let nm_menu = document.querySelector(".nm_menu_bar");
 let nm_menu_btn = document.querySelector("#nm_menu_1");
 let nm_item = document.querySelectorAll(".nm_item");
-
+let nm_logo = document.querySelector(".nm_logo");
+nm_logo.addEventListener("click",function ()
+{
+  alert("Hey! everyone I hope you are fine and you got latest news upadate here");
+})
 nm_item.forEach((element) => {
   window.addEventListener("load", function () {
     let nm_html = "";
