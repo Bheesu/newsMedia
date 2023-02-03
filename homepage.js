@@ -17,12 +17,12 @@ nm_item.forEach((element) => {
       .then((data) => {
         let news_section = document.querySelector("#news");
         data.articles.forEach((element) => {
-          if(element.urlToImage == null){
-            element.urlToImage = '/images/subsitute_img.png';
-          }
-          if(element.content == null){
-            element.content = "";
-          }
+          // if(element.urlToImage == null){
+          //   element.urlToImage = '/images/subsitute_img.png';
+          // }
+          // if(element.content == null){
+          //   element.content = "";
+          // }
           nm_html += `<div class="nm_page_container">
       <div class="nm_news">
         <div class="nm_news_content">
